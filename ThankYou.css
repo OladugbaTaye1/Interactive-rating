@@ -1,0 +1,31 @@
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.Rating{
+    background-color: rgb(22, 12, 68);
+    padding: 30px;
+    border-radius: 20px;
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+p{
+    color: grey;
+    width: 330px;
+}
+.Rating button{
+    background-color: grey;
+    color: orangered;
+    height: 25px;
+    border-radius: 8px;
+    margin-top: 20px
+}
